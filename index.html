@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#f8f3ed" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="apple-touch-icon" href="assets/app.png" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="overrides.css" />
+  <title>朝夕食事</title>
+</head>
+<body>
+  <main id="app" aria-live="polite"></main>
+  <nav class="bottom-nav" aria-label="主导航">
+    <button data-page="home"><img src="assets/icon1.png" alt=""><span>首页</span></button>
+    <button data-page="order"><img src="assets/icon2.png" alt=""><span>点单</span></button>
+    <button data-page="shop"><img src="assets/icon3.png" alt=""><span>采购</span></button>
+    <button data-page="recipe"><img src="assets/icon4.png" alt=""><span>食谱</span></button>
+  </nav>
+  <div id="modal-root"></div>
+  <script src="supabase-config.js"></script>
+  <script src="cloud-sync.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
