@@ -1,4 +1,4 @@
-const CACHE = 'cook-pwa-v14';
+const CACHE = 'cook-pwa-v15';
 const CORE = [
   './',
   'index.html',
