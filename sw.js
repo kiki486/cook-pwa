@@ -1,4 +1,4 @@
-const CACHE = 'cook-pwa-v12';
+const CACHE = 'cook-pwa-v14';
 const CORE = [
   './',
   'index.html',
@@ -11,9 +11,12 @@ const CORE = [
   'assets/app.png',
   'assets/app-192.png',
   'assets/app-maskable.png',
-  'assets/icon2.png',
-  'assets/icon3.png',
-  'assets/icon4.png'
+  'assets/icon2.48.png',
+  'assets/icon3.48.png',
+  'assets/icon4.48.png',
+  'assets/icon2.144.png',
+  'assets/icon3.144.png',
+  'assets/icon4.144.png'
 ];
 
 self.addEventListener('install', event => {
