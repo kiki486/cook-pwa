@@ -1,3 +1,7 @@
+.bottom-nav {
+  grid-template-columns: repeat(3, 1fr);
+}
+
 .home-logo {
   top: max(18px, env(safe-area-inset-top));
 }
