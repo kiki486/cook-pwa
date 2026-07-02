@@ -28,7 +28,8 @@ jobs:
         shell: bash
         run: |
           mkdir -p _site/assets
-          cp index.html app.js cloud-sync.js supabase-config.js styles.css overrides.css sw.js manifest.webmanifest .nojekyll _site/
+          cp index.html app.js cloud-sync.js supabase-config.js styles.css overrides.css sw.js manifest.webmanifest _site/
+          touch _site/.nojekyll
           cp assets/2.jpg assets/app.png assets/app-192.png assets/app-maskable.png _site/assets/
           cp assets/icon1.png assets/icon3.png assets/icon7.png assets/icon8.png _site/assets/
           cp assets/icon2.48.png assets/icon3.48.png assets/icon4.48.png _site/assets/
