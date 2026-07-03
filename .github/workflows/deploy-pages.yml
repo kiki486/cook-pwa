@@ -34,7 +34,7 @@ jobs:
           cp assets/icon1.png assets/icon3.png assets/icon7.png assets/icon8.png _site/assets/
           cp assets/icon2.48.png assets/icon3.48.png assets/icon4.48.png _site/assets/
           cp assets/icon2.144.png assets/icon3.144.png assets/icon4.144.png _site/assets/
-          cp assets/shopping-title.png assets/设置.png _site/assets/
+          cp assets/shopping-title.png "assets/设置.png" _site/assets/
           du -sh _site
 
       - name: Upload Pages artifact
